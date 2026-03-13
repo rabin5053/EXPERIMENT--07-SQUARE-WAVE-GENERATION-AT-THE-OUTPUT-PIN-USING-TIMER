@@ -96,16 +96,25 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
-
+HAL_TIM_Base_Start(&htim2);
+      HAL_TIM_PWM_Init(&htim2);
+      HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
 
 
 
 
 ## Output screen shots of proteus  :
  
- 
+ ![img](https://github.com/Girithickrohan/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/blob/main/750.png)
+ ## 500 Pluse:
+
+![img](https://github.com/Girithickrohan/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/blob/main/500.png)
+
+ ## 250 Pluse:
+
+ ![img](https://github.com/Girithickrohan/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/blob/main/250.png)
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![img](https://private-user-images.githubusercontent.com/230559030/561371505-2a7ca4c4-5330-4f86-9fe8-fd4ee23d8cec.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzMzOTgzMjIsIm5iZiI6MTc3MzM5ODAyMiwicGF0aCI6Ii8yMzA1NTkwMzAvNTYxMzcxNTA1LTJhN2NhNGM0LTUzMzAtNGY4Ni05ZmU4LWZkNGVlMjNkOGNlYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMxM1QxMDMzNDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNTViMzQ0ZDFlZGYzMGNhMTg0MTQ1ZjFiNzhjYWQ2ZTY2ZjQzYmFiYjFkMWViMDhlNmE5ZjkzY2IzZWIyZDZlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.E8WkH5HMTVLw9iH5yVIJAslWtHUXwVSxPdJl_lK_Bkc)
 
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
